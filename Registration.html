@@ -75,7 +75,7 @@
 
     <div class="container">
         <h2>User Registration</h2>
-        <form id="registrationForm">
+        <form id="registrationform">
             <label for="fullName">Full Name:</label>
             <input type="text" id="fullName" name="fullName" required>
             <span class="error" id="nameError"></span>
@@ -173,7 +173,7 @@
             });
 
             // Form validation
-            $("#registrationForm").submit(function (event) {
+            $("#registrationform").submit(function (event) {
                 event.preventDefault();
                 let valid = true;
 
